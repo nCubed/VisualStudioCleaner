@@ -146,7 +146,7 @@ Global
 	GlobalSection(TeamFoundationVersionControl) = preSolution
 		SccNumberOfProjects = 4
 		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://ncubed.visualstudio.com/defaultcollection
+		SccTeamFoundationServer = https://github.com/nCubed
 		SccLocalPath0 = .
 		SccProjectUniqueName1 = ImperialArmy.Common\\ImperialArmy.Common.csproj
 		SccProjectName1 = ImperialArmy.Common

@@ -97,14 +97,6 @@ namespace VisualStudioCleaner.Cleaners.SourceControlCleaners
             return indexes;
         }
 
-        private bool HasVersionControlSection( string file )
-        {
-            // TODO: Clean up usages of HasVersionControl; it's wonky that it has to read the file twice before cleaning the file.
-
-            var lines = File.ReadAllLines( file );
-            return lines.Any( x => x.Trim().StartsWith( SourceStart, StringComparison.OrdinalIgnoreCase ) );
-        }
-
         private bool IsSourceControlStartLine( string line )
         {
             return line.StartsWith( SourceStart, StringComparison.OrdinalIgnoreCase );

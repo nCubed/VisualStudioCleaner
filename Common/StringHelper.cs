@@ -25,12 +25,12 @@ namespace VisualStudioCleaner.Common
 
         public static string CleanFileExtension( string fileExtension )
         {
-            string ext = fileExtension.Trim();
-
-            if( string.IsNullOrWhiteSpace( ext ) )
+            if( string.IsNullOrWhiteSpace( fileExtension ) )
             {
                 throw new ArgumentNullException( "fileExtension" );
             }
+
+            string ext = fileExtension.Trim();
 
             if( !ext.StartsWith( ".", StringComparison.OrdinalIgnoreCase ) )
             {
