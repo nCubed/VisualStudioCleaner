@@ -1,7 +1,7 @@
 VisualStudioCleaner
 ===================
 
-Open Source project for cleaning Visual Studio directories and files.
+Open Source project for deleting unnecessary Visual Studio files and folders, with an option for removing source control bindings as well.
 
 Until documentation and associated downloaded file(s) are ready, VisualStudioCleaner can be used by:
 
