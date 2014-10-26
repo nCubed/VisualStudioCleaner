@@ -13,21 +13,23 @@ Until documentation and associated downloaded file(s) are ready, VisualStudioCle
 
 ###Examples
 
-To delete unnecessary files and directories, but not remove source control bindings:
+The default is to delete unnecessary files and directories, but not remove source control bindings:
 
-```csharp
+```bat
 VSCleaner.exe -d "C:\Solution\Directory"
+// Which is equivalent to:
+VSCleaner.exe -d "C:\Solution\Directory" -o Default
 ```
 
 To delete unnecessary files, directories, and remove source control bindings:
 
-```csharp
+```bat
 VSCleaner.exe -d "C:\Solution\Directory" -o All
 ```
 
 To only remove source control bindings:
 
-```csharp
+```bat
 VSCleaner.exe -d "C:\Solution\Directory" -o RemoveSourceControlBindings
 ```
 
@@ -35,18 +37,18 @@ The options can be chained as well.
 
 To delete unnecessary files, but not directories:
 
-```csharp
+```bat
 VSCleaner.exe -d "C:\Solution\Directory" -o Default|ExcludeDirectories
 ```
 
 To delete unnecessary directories, but not files:
 
-```csharp
+```bat
 VSCleaner.exe -d "C:\Solution\Directory" -o Default|ExcludeFiles
 ```
 
 To perform all actions, but not delete any directories:
-```csharp
+```bat
 VSCleaner.exe -d "C:\Solution\Directory" -o All|ExcludeDirectories
 ```
 
