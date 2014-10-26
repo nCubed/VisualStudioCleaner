@@ -4,7 +4,7 @@ using CommandLine;
 using CommandLine.Text;
 using VisualStudioCleaner.Common;
 
-namespace VisualStudioCleaner.UI.Consolas
+namespace VisualStudioCleaner.UI.CommandLine
 {
     internal class CommandLineOptions
     {

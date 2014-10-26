@@ -1,6 +1,6 @@
 using System.IO;
 
-namespace VisualStudioCleaner.UI.Consolas
+namespace VisualStudioCleaner.UI.CommandLine
 {
     static class ResetTestDirectories
     {

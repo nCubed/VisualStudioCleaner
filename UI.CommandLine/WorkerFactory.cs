@@ -4,7 +4,7 @@ using VisualStudioCleaner.Common.Domain;
 using VisualStudioCleaner.DependencyResolution;
 using VisualStudioCleaner.Workers;
 
-namespace VisualStudioCleaner.UI.Consolas
+namespace VisualStudioCleaner.UI.CommandLine
 {
     internal static class WorkerFactory
     {

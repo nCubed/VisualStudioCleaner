@@ -1,7 +1,7 @@
 using System.IO;
 using VisualStudioCleaner.Common.Domain;
 
-namespace VisualStudioCleaner.UI.Consolas
+namespace VisualStudioCleaner.UI.CommandLine
 {
     internal class VSCleanerRootDirectory : IRootDirectory
     {

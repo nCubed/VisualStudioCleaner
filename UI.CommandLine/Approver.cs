@@ -1,7 +1,7 @@
 using System;
 using VisualStudioCleaner.Common;
 
-namespace VisualStudioCleaner.UI.Consolas
+namespace VisualStudioCleaner.UI.CommandLine
 {
     internal static class Approver
     {

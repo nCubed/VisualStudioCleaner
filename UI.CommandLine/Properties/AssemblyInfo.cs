@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // associated with an callingAssembly.
 using CommandLine;
 
-[assembly: AssemblyTitle( "VisualStudioCleaner.UI.Consolas" )]
+[assembly: AssemblyTitle( "VisualStudioCleaner.UI.CommandLine" )]
 [assembly: AssemblyDescription( "" )]
 [assembly: AssemblyConfiguration( "" )]
 [assembly: AssemblyCompany( "nCubed" )]

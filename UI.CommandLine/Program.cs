@@ -8,7 +8,7 @@ using System.Text;
 using CommandLine;
 using VisualStudioCleaner.Workers;
 
-namespace VisualStudioCleaner.UI.Consolas
+namespace VisualStudioCleaner.UI.CommandLine
 {
     class Program
     {
