@@ -17,7 +17,9 @@ The default is to delete unnecessary files and directories, but not remove sourc
 
 ```bat
 VSCleaner.exe -d "C:\Solution\Directory"
-// Which is equivalent to:
+```
+_Which is equivalent to:_
+```bat
 VSCleaner.exe -d "C:\Solution\Directory" -o Default
 ```
 
